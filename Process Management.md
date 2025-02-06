@@ -41,7 +41,8 @@ The fork() system call in Unix-like operating systems is used to create a new pr
 In an operating system, user mode and kernel mode are two distinct operating modes of the CPU that control the level of access a process has to system resources. These modes are part of the OS’s protection mechanism, ensuring system stability and security by controlling which parts of the system can execute critical operations.
 
 1. User Mode
-   Description: In user mode, applications run with limited privileges. Processes in this mode cannot directly access hardware or modify kernel data.
+
+Description: In user mode, applications run with limited privileges. Processes in this mode cannot directly access hardware or modify kernel data.
 
 Access Limitations: Programs running in user mode cannot interact with the hardware directly; they must make system calls to request services from the kernel.
 
@@ -66,7 +67,9 @@ Examples: The OS kernel, device drivers, and other critical system functions ope
 When a user application needs to perform an operation that requires higher privileges (like reading a file or accessing hardware), it makes a system call. This causes a mode switch:
 
 a) The CPU switches from user mode to kernel mode.
+
 b) The OS kernel performs the requested operation on behalf of the application.
+
 c) The CPU then switches back to user mode once the task is complete, returning control to the application.
 
 #### Why the Distinction Exists
