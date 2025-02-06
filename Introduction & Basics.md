@@ -1,8 +1,8 @@
-1. What is an Operating System?
+#### What is an Operating System?
 
 An operating system (OS) is the primary software that manages all the hardware and other software on a computer. It acts as an intermediary between the user and the computer's hardware, coordinating the execution of programs and enabling communication between hardware components.
 
-2. Key Functions of an Operating System:
+#### Key Functions of an Operating System:
 
 a) Resource Management: Manages the computer's CPU, memory, disk space, and peripheral devices.
 
@@ -14,7 +14,7 @@ d) Task Scheduling and Multitasking: Allocates processing time to different appl
 
 e) Security and Access Control: Protects data by controlling access to files, programs, and resources.
 
-3. Types of Operating Systems
+#### Types of Operating Systems
 
 a) Batch OS: Executes jobs in batches without user interaction.
 
@@ -28,7 +28,7 @@ e) Embedded OS: Designed for specialized devices like IoT, ATMs, and industrial 
 
 f) Real-time OS: Processes data within a strict time limit for applications like aerospace and medical devices.
 
-3. Process States
+#### Process States
 
 In an operating system, a process (a program in execution) transitions through various states based on its progress and the availability of resources. The main process states are as follows:
 
@@ -53,7 +53,7 @@ Running → Ready: The process’s CPU time slice expires, and it returns to the
 Waiting → Ready: The required resource becomes available, allowing the process to continue.
 These transitions help the OS manage multitasking efficiently, ensuring that processes run smoothly and utilize system resources effectively.
 
-4. Process Scheduling
+#### Process Scheduling
 
 Preemptive Scheduling: Allows the OS to interrupt a running process and allocate CPU to another.
 
